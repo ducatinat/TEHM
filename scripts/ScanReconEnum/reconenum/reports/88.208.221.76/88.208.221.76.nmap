@@ -1,0 +1,18 @@
+# Nmap 7.12 scan initiated Fri Apr 12 15:15:01 2019 as: nmap -sV -O -oN ../reports/88.208.221.76/88.208.221.76.nmap 88.208.221.76
+Nmap scan report for server88-208-221-76.live-servers.net (88.208.221.76)
+Host is up (0.29s latency).
+Not shown: 994 closed ports
+PORT      STATE SERVICE    VERSION
+22/tcp    open  ssh        OpenSSH 7.7p1 Ubuntu 4ubuntu0.3 (Ubuntu Linux; protocol 2.0)
+80/tcp    open  http-proxy McAfee Web Gateway 7.6.2.6.0.22529 (Via 210.87.255.226)
+111/tcp   open  rpcbind    2-4 (RPC #100000)
+3128/tcp  open  http-proxy McAfee Web Gateway 7.6.2.6.0.22529 (Via 210.87.255.235)
+8080/tcp  open  http-proxy McAfee Web Gateway 7.6.2.6.0.22529 (Via 210.87.255.235)
+10000/tcp open  http       MiniServ 1.900 (Webmin httpd)
+Aggressive OS guesses: Linux 4.0 (93%), Linux 3.11 - 4.1 (92%), Linux 2.6.32 (92%), Linux 2.6.32 or 3.10 (92%), Linux 2.6.32 - 2.6.35 (90%), Linux 3.12 (90%), Linux 3.13 (90%), Linux 2.6.32 - 2.6.39 (90%), Linux 3.10 - 4.1 (89%), Linux 3.2 - 3.8 (89%)
+No exact OS matches for host (test conditions non-ideal).
+Network Distance: 9 hops
+Service Info: OS: Linux; CPE: cpe:/o:linux:linux_kernel
+
+OS and Service detection performed. Please report any incorrect results at https://nmap.org/submit/ .
+# Nmap done at Fri Apr 12 15:16:10 2019 -- 1 IP address (1 host up) scanned in 70.66 seconds

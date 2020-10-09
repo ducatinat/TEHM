@@ -1,0 +1,47 @@
+#! /usr/bin/python3
+"""
+OWASP Maryam!
+
+This program is free software: you can redistribute it and/or modify
+it under the terms of the GNU General Public License as published by
+the Free Software Foundation, either version 3 of the License, or
+any later version.
+
+This program is distributed in the hope that it will be useful,
+but WITHOUT ANY WARRANTY; without even the implied warranty of
+MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+GNU General Public License for more details.
+
+You should have received a copy of the GNU General Public License
+along with this program.  If not, see <http://www.gnu.org/licenses/>.
+"""
+
+__VERSION__ = '1.4.5'
+
+import sys
+import platform
+
+# Check the OS
+if platform.system() not in ('Linux', 'Darwin'):
+	print('[!] This tool is designed for Linux and Darwin. maybe not work!')
+
+# Check the version
+if sys.version_info.major != 3:
+	print('[!] Maryam migrated to python3.')
+	exit(0)
+
+# Import framework
+from core import base
+
+sys.dont_write_bytecode = True
+
+def cui():
+	x = base.Base()
+	try:
+		x.cmdloop()
+	except KeyboardInterrupt:
+		print('')
+	except Exception as e:
+		raise e
+
+cui()

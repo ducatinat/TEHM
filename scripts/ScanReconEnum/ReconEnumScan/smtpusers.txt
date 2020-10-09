@@ -1,0 +1,9 @@
+root
+user
+info
+admin
+sales
+web
+accounts
+staff
+hr

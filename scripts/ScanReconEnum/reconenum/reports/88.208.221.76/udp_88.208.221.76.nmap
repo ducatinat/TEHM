@@ -1,0 +1,1 @@
+# Nmap 7.12 scan initiated Fri Apr 12 15:16:12 2019 as: nmap -Pn -A -sC -sU -T 3 --top-ports 200 -oN ../reports/88.208.221.76/udp_88.208.221.76.nmap 88.208.221.76

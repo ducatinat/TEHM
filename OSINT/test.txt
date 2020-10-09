@@ -1,0 +1,194 @@
+% IANA WHOIS server
+% for more information on IANA, visit http://www.iana.org
+% This query returned 1 object
+
+refer:        whois.verisign-grs.com
+
+domain:       COM
+
+organisation: VeriSign Global Registry Services
+address:      12061 Bluemont Way
+address:      Reston Virginia 20190
+address:      United States
+
+contact:      administrative
+name:         Registry Customer Service
+organisation: VeriSign Global Registry Services
+address:      12061 Bluemont Way
+address:      Reston Virginia 20190
+address:      United States
+phone:        +1 703 925-6999
+fax-no:       +1 703 948 3978
+e-mail:       info@verisign-grs.com
+
+contact:      technical
+name:         Registry Customer Service
+organisation: VeriSign Global Registry Services
+address:      12061 Bluemont Way
+address:      Reston Virginia 20190
+address:      United States
+phone:        +1 703 925-6999
+fax-no:       +1 703 948 3978
+e-mail:       info@verisign-grs.com
+
+nserver:      A.GTLD-SERVERS.NET 192.5.6.30 2001:503:a83e:0:0:0:2:30
+nserver:      B.GTLD-SERVERS.NET 192.33.14.30 2001:503:231d:0:0:0:2:30
+nserver:      C.GTLD-SERVERS.NET 192.26.92.30 2001:503:83eb:0:0:0:0:30
+nserver:      D.GTLD-SERVERS.NET 192.31.80.30 2001:500:856e:0:0:0:0:30
+nserver:      E.GTLD-SERVERS.NET 192.12.94.30 2001:502:1ca1:0:0:0:0:30
+nserver:      F.GTLD-SERVERS.NET 192.35.51.30 2001:503:d414:0:0:0:0:30
+nserver:      G.GTLD-SERVERS.NET 192.42.93.30 2001:503:eea3:0:0:0:0:30
+nserver:      H.GTLD-SERVERS.NET 192.54.112.30 2001:502:8cc:0:0:0:0:30
+nserver:      I.GTLD-SERVERS.NET 192.43.172.30 2001:503:39c1:0:0:0:0:30
+nserver:      J.GTLD-SERVERS.NET 192.48.79.30 2001:502:7094:0:0:0:0:30
+nserver:      K.GTLD-SERVERS.NET 192.52.178.30 2001:503:d2d:0:0:0:0:30
+nserver:      L.GTLD-SERVERS.NET 192.41.162.30 2001:500:d937:0:0:0:0:30
+nserver:      M.GTLD-SERVERS.NET 192.55.83.30 2001:501:b1f9:0:0:0:0:30
+ds-rdata:     30909 8 2 E2D3C916F6DEEAC73294E8268FB5885044A833FC5459588F4A9184CFC41A5766
+
+whois:        whois.verisign-grs.com
+
+status:       ACTIVE
+remarks:      Registration information: http://www.verisigninc.com
+
+created:      1985-01-01
+changed:      2017-10-05
+source:       IANA
+
+# whois.verisign-grs.com
+
+   Domain Name: ARCADEUSOPS.COM
+   Registry Domain ID: 2031500621_DOMAIN_COM-VRSN
+   Registrar WHOIS Server: whois.tucows.com
+   Registrar URL: http://www.tucows.com
+   Updated Date: 2018-04-27T08:36:27Z
+   Creation Date: 2016-05-27T00:09:01Z
+   Registry Expiry Date: 2020-05-27T00:09:01Z
+   Registrar: Tucows Domains Inc.
+   Registrar IANA ID: 69
+   Registrar Abuse Contact Email:
+   Registrar Abuse Contact Phone:
+   Domain Status: clientTransferProhibited https://icann.org/epp#clientTransferProhibited
+   Domain Status: clientUpdateProhibited https://icann.org/epp#clientUpdateProhibited
+   Name Server: NS1.LIVEDNS.CO.UK
+   Name Server: NS2.LIVEDNS.CO.UK
+   Name Server: NS3.LIVEDNS.CO.UK
+   DNSSEC: unsigned
+   URL of the ICANN Whois Inaccuracy Complaint Form: https://www.icann.org/wicf/
+>>> Last update of whois database: 2020-04-10T10:20:35Z <<<
+
+# whois.tucows.com
+
+Domain Name: ARCADEUSOPS.COM
+Registry Domain ID: 2031500621_DOMAIN_COM-VRSN
+Registrar WHOIS Server: whois.tucows.com
+Registrar URL: http://tucowsdomains.com
+Updated Date: 2019-03-01T07:20:20
+Creation Date: 2016-05-27T00:09:01
+Registrar Registration Expiration Date: 2020-05-27T00:09:01
+Registrar: TUCOWS, INC.
+Registrar IANA ID: 69
+Reseller: Fasthosts Internet Limited
+Domain Status: clientTransferProhibited https://icann.org/epp#clientTransferProhibited
+Domain Status: clientUpdateProhibited https://icann.org/epp#clientUpdateProhibited
+Registry Registrant ID: 
+Registrant Name: REDACTED FOR PRIVACY
+Registrant Organization: REDACTED FOR PRIVACY
+Registrant Street: REDACTED FOR PRIVACY 
+Registrant City: REDACTED FOR PRIVACY
+Registrant State/Province: HKSAR
+Registrant Postal Code: REDACTED FOR PRIVACY
+Registrant Country: HK
+Registrant Phone: REDACTED FOR PRIVACY
+Registrant Phone Ext: 
+Registrant Fax: REDACTED FOR PRIVACY
+Registrant Fax Ext: 
+Registrant Email: https://tieredaccess.com/contact/babbd76e-453b-4f72-b5d9-38d37c714648
+Registry Admin ID: 
+Admin Name: REDACTED FOR PRIVACY
+Admin Organization: REDACTED FOR PRIVACY
+Admin Street: REDACTED FOR PRIVACY 
+Admin City: REDACTED FOR PRIVACY
+Admin State/Province: REDACTED FOR PRIVACY
+Admin Postal Code: REDACTED FOR PRIVACY
+Admin Country: REDACTED FOR PRIVACY
+Admin Phone: REDACTED FOR PRIVACY
+Admin Phone Ext: 
+Admin Fax: REDACTED FOR PRIVACY
+Admin Fax Ext: 
+Admin Email: REDACTED FOR PRIVACY
+Registry Tech ID: 
+Tech Name: REDACTED FOR PRIVACY
+Tech Organization: REDACTED FOR PRIVACY
+Tech Street: REDACTED FOR PRIVACY 
+Tech City: REDACTED FOR PRIVACY
+Tech State/Province: REDACTED FOR PRIVACY
+Tech Postal Code: REDACTED FOR PRIVACY
+Tech Country: REDACTED FOR PRIVACY
+Tech Phone: REDACTED FOR PRIVACY
+Tech Phone Ext: 
+Tech Fax: REDACTED FOR PRIVACY
+Tech Fax Ext: 
+Tech Email: REDACTED FOR PRIVACY
+Name Server: ns1.livedns.co.uk
+Name Server: ns2.livedns.co.uk
+Name Server: ns3.livedns.co.uk
+DNSSEC: unsigned
+Registrar Abuse Contact Email: domainabuse@tucows.com
+Registrar Abuse Contact Phone: +1.4165350123
+URL of the ICANN WHOIS Data Problem Reporting System: http://wdprs.internic.net/
+>>> Last update of WHOIS database: 2020-04-10T10:20:52Z <<<
+
+Server:		8.8.8.8
+Address:	8.8.8.8#53
+
+Non-authoritative answer:
+Name:	arcadeusops.com
+Address: 77.68.64.2
+arcadeusops.com	nameserver = ns1.livedns.co.uk.
+arcadeusops.com	nameserver = ns2.livedns.co.uk.
+arcadeusops.com	nameserver = ns3.livedns.co.uk.
+arcadeusops.com
+	origin = ns1.livedns.co.uk
+	mail addr = admin.arcadeusops.com
+	serial = 1551495908
+	refresh = 10800
+	retry = 3600
+	expire = 604800
+	minimum = 3600
+arcadeusops.com	mail exchanger = 10 mailserver.arcadeusops.com.
+arcadeusops.com	text = "201801261417202e3mb4oo9i0gejji8wqjt1mtw551768sgdwz47hh2l8xldudro"
+
+Authoritative answers can be found from:
+
+arcadeusops.com has address 77.68.64.2
+arcadeusops.com mail is handled by 10 mailserver.arcadeusops.com.
+arcadeusops.com name server ns3.livedns.co.uk.
+arcadeusops.com name server ns2.livedns.co.uk.
+arcadeusops.com name server ns1.livedns.co.uk.
+Host ns1.arcadeusops.com not found: 2(SERVFAIL)
+; Transfer failed.
+arcadeusops.com mail is handled by 10 mailserver.arcadeusops.com.
+
+; <<>> DiG 9.10.6 <<>> target.com
+;; global options: +cmd
+;; Got answer:
+;; ->>HEADER<<- opcode: QUERY, status: NOERROR, id: 43072
+;; flags: qr rd ra; QUERY: 1, ANSWER: 4, AUTHORITY: 0, ADDITIONAL: 1
+
+;; OPT PSEUDOSECTION:
+; EDNS: version: 0, flags:; udp: 512
+;; QUESTION SECTION:
+;target.com.			IN	A
+
+;; ANSWER SECTION:
+target.com.		59	IN	A	151.101.194.187
+target.com.		59	IN	A	151.101.66.187
+target.com.		59	IN	A	151.101.2.187
+target.com.		59	IN	A	151.101.130.187
+
+;; Query time: 27 msec
+;; SERVER: 8.8.8.8#53(8.8.8.8)
+;; WHEN: Fri Apr 10 18:20:54 HKT 2020
+;; MSG SIZE  rcvd: 103
+

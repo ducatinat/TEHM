@@ -1,0 +1,118 @@
+Kali
+
+# Change the root password & delete default account
+
+sudo -i
+kali
+passwd
+reboot
+
+Log in as root
+userdel -r kali
+------------------------------------------------------------------------------------------------------------------------------------------------------
+
+# Modify the Terminal
+
+Right click on the Terminal > Preferences
+Font > Change: 13 > OK
+Application transparency: 0%
+Behavior: Unlimited history
+OK
+------------------------------------------------------------------------------------------------------------------------------------------------------
+
+# Cleanup the Home folder
+
+rm -rf Documents/ Downloads/ Music/ Pictures/ Public/ Templates/ Videos/
+------------------------------------------------------------------------------------------------------------------------------------------------------
+
+# Disable screen lock
+
+Top right battery icon > Power manager settings
+Display > Display power management: Off
+Security > Lock screen when system is going to sleep: Off
+Close
+------------------------------------------------------------------------------------------------------------------------------------------------------
+
+# Update Kali
+
+apt-get update
+apt-get -y upgrade
+apt-get -y dist-upgrade
+updatedb
+------------------------------------------------------------------------------------------------------------------------------------------------------
+
+# Install tools
+
+- gedit
+apt install gedit
+gedit
+Preferences
+     Editor
+          Tab width: 5
+          Insert spaces instead of tabs
+     Fonts & Colors
+          Uncheck Use the system fixed width font
+          Color Scheme: Oblivion
+
+- Terminator
+apt-get install terminator
+terminator
+Right click in the window > Preferences
+Profiles
+     General > Font: Monospace Regular 12
+     Colors > Built-in schemes: White on black
+     Scrolling: Infinite Scrollback
+
+- Discover scripts
+git clone git://github.com/leebaird/discover.git /opt/discover/
+cd /opt/discover/
+./update.sh
+------------------------------------------------------------------------------------------------------------------------------------------------------
+
+# SSH
+
+ssh-keygen                                 Create new keys
+
+/etc/ssh/sshd_config                       Daemon config file
+PermitRootLogin yes                        Change to yes
+AuthorizedKeysFile                         Uncomment
+------------------------------------------------------------------------------------------------------------------------------------------------------
+
+# Services
+
+service <service> <start|stop|restart>
+service ssh start                          Start ssh
+netstat -antp | grep ssh                   Verify the ssh service is running
+
+service apache2 start                      Start Apache
+firefox localhost                          Verify the Apache service is running
+/var/www/html/                             Document root
+
+update-rc.d <service> <enable|disable>     Enable a service to start at boot time
+update-rc.d ssh enable
+------------------------------------------------------------------------------------------------------------------------------------------------------
+
+# .vimrc
+
+syntax on          " Syntax highlighting
+
+set hlsearch       " Highlight all matches
+set incsearch      " Highlight first matches of searches while typing
+set number         " Show line numbers
+set ruler          " Handy line at the bottom
+set title          " Terminal title is filename
+
+set expandtab      " Insert spaces instead of tabs
+set shiftwidth=5   " 5-space tabs
+set tabstop=5      " 5-space indents
+
+" Allow backspacing over autoindent, line breaks and start of insert action
+set backspace=indent,eol,start
+
+" Insert timestamp with F3
+nmap <F3> i<C-R>=strftime("%Y-%m-%d %a %I:%M %p")<CR><Esc>
+imap <F3> <C-R>=strftime("%Y-%m-%d %a %I:%M %p")<CR>
+
+" Toggle line numbers with F2
+nnoremap <F2> :set nonumber!<CR>:set foldcolumn=0<CR>
+
