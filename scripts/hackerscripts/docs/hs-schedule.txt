@@ -1,0 +1,14 @@
+DESCRIPTION
+-----------
+
+hs-schedule
+
+Schedules other hacker-scripts commands to be executed some time in the future.
+It also allows you to delete already scheduled tasks.
+
+This script uses the windows SCHTASKS command to create scheduled tasks.
+
+USAGE
+-----
+
+Check hs-schedule -h

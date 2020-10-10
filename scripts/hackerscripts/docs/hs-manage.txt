@@ -1,0 +1,42 @@
+DESCRIPTION
+-----------
+
+hs-manage
+
+Manages all the files in a given directory (passed as an argument) by moving the files
+whose extensions are in a given set of extensions (set in the configuration) to the
+directory (which again is set in the configuration) associated with them.
+
+CONFIGURATION
+-------------
+
+Here's an example configuration:
+
+[hs-manage]
+    extension_set_1  = .txt, .ppt, .doc, .xml
+    location_1       = C:\Users\Areeb\Desktop\Files
+    extension_set_2  = .jpg, .png, .gif
+    location_2       = E:\Media\Images
+    extension_set_3  = .avi, .mp4, .mkv, .flv, .wmv, .m4v, .mpg, .3gp, .3g2, .f4v
+    location_3       = E:\Media\Videos
+
+1. EXTENSION_SETS
+
+The files with their extensions in extension_set_<x> will be moved to the directory
+in location_<x>.
+
+2. LOCATIONS
+
+Well, it's self explanatory.
+
+IMPORTANT NOTES:
+
+- When you enter extensions they must be in the same format as in the above example,
+  no extra brackets or punctuations.
+
+- For each extension_set_x option there should be a location_x option and vice versa.
+
+USAGE
+-----
+
+Check hs-manage -h

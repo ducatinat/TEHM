@@ -1,0 +1,30 @@
+DESCRIPTION
+-----------
+
+hs-music
+
+Creates a temporary ".m3u" playlist that contains all the music files located
+in the directories (and their sub-directories) specified in the configuration
+and launches it with the default music player.
+
+CONFIGURATION
+-------------
+
+Here's an example configuration:
+
+[hs-music]
+	directory1 = C:\Users\Areeb\Songs\Rock
+	directory2 = C:\Users\Areeb\Songs\Pop
+
+1. DIRECTORIES
+
+These are the directories which will be scanned for music files and they will
+be added to the playlist.
+
+Supported file types:
+		".mp3", ".m4a", ".ogg", ".flac"
+
+USAGE
+-----
+
+Check hs-music -h

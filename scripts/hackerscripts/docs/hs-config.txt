@@ -1,0 +1,16 @@
+DESCRIPTION
+-----------
+
+hs-config
+
+Creates a new configuration file named 'config.ini' in the hacker-scripts
+main directory.
+
+If it already exists you will be asked if you want to overwrite the file,
+if you cancel the overwrite operation the configuration file will open
+with the default text editor for .ini files.
+
+USAGE
+-----
+
+Check hs-config -h
