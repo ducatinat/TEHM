@@ -5,14 +5,14 @@ Version:        0.6
 Date:           01/27/2014
 Author:         Smeege
 Contact:        SmeegeSec@gmail.com
-
-Description:    SmeegeScrape.py is a simple python script to scrape text from various sources including local files and 
-                web pages, and turn the text into a custom word list.  A customized word list has many uses, from web 
-                application testing to password cracking, having a specific set of words to use against a target can 
-                increase efficiency and effectiveness during a penetration test.  I realize there are other text scrapers 
-                publicly available however I feel this script is simple, efficient, and specific enough to warrant its own 
-                release. This script is able to read almost any file which has cleartext in it that python can open.  I 
-                have also included support for file formats such as pdf, html, docx, and pptx. 
+ 
+Description:    SmeegeScrape.py is a simple python script to scrape text from various sources including local files and
+                web pages, and turn the text into a custom word list.  A customized word list has many uses, from web
+                application testing to password cracking, having a specific set of words to use against a target can
+                increase efficiency and effectiveness during a penetration test.  I realize there are other text scrapers
+                publicly available however I feel this script is simple, efficient, and specific enough to warrant its own
+                release. This script is able to read almost any file which has cleartext in it that python can open.  I
+                have also included support for file formats such as pdf, html, docx, and pptx.
 
 Copyright (c) 2014, Smeege Sec (http://www.smeegesec.com)
 All rights reserved.
@@ -64,7 +64,7 @@ optionGroup.add_argument('-max', action="store", dest="maxLength", type=int, hel
 
 args = parser.parse_args()
 
-#PyPDF2 does not always work very well with extracting text from pdf.  It mainly depends on how the PDF was generated.                
+#PyPDF2 does not always work very well with extracting text from pdf.  It mainly depends on how the PDF was generated.
 def getPDFContent(path):
     # Load PDF into PyPDF2
     try:
@@ -72,11 +72,11 @@ def getPDFContent(path):
     except:
     	print 'Error reading: ' + path + '. Skipping.'
     	return
-    	
+
     if pdf.isEncrypted:
         print 'pdf ' + path + ' is encrypted, trying blank password...'
         pdf.decrypt('') #If you want to provide your own password for an encrypted pdf, modify code here.
-    
+
     content = ""
     # Iterate PDF pages
     for i in range(0, pdf.getNumPages()):
@@ -204,7 +204,7 @@ def localFile(fileInput):
                 if args.minLength or args.maxLength:
                     for word in words:
                         if not(len(str((word.translate(None,charBlacklist)))) < minl or len(str(word)) > maxl):
-                            wordList.append(str(word).translate(None,charBlacklist))                  
+                            wordList.append(str(word).translate(None,charBlacklist))
                 else:
                     for word in words:
                         wordList.append(str(word).translate(None,charBlacklist))
@@ -240,12 +240,12 @@ def output():
             args.outputFile = 'smeegescrape_out.txt'
         outputFile = open(args.outputFile, 'w')
         wordListFinal = OrderedDict.fromkeys(wordList).keys()
-        
+
         for word in wordListFinal:
             outputFile.write(word)
             outputFile.write('\n')
         outputFile.close()
-        
+
         print '\n{0} unique words have been scraped.'.format(len(wordListFinal))
         print 'Output file successfully written: {0}'.format(outputFile.name)
     except Exception as e:
@@ -285,4 +285,3 @@ if __name__ == "__main__":
         webList(args.webList)
 
     output()
-    
